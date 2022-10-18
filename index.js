@@ -1,8 +1,13 @@
-function addingEventListener(constinput = document.getElementById('button'))
+
+function addingEventListener(){
+  const input = document.getElementById('button');
 
 function clickAlert() {
-  alert(`I was clicked!`)
+  console.log("hi")
+  alert('I was clickedfssd!');
 }
 
-input.addEventListener('click', clickAlert); {
+input.addEventListener('click', clickAlert);
+
 }
+addingEventListener()
